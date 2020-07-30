@@ -9,7 +9,7 @@ from datetime import timedelta
 
 from pandas import DataFrame, DatetimeIndex, infer_freq
 
-from bayes_chime.normal.utilities import (
+from ..util import (
     FloatLike,
     NormalDistVar,
     FloatOrDistVar,

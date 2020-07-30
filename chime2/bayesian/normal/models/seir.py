@@ -2,8 +2,8 @@
 """
 from typing import Dict, List
 
-from bayes_chime.normal.utilities import FloatOrDistVar, NormalDistVar
-from bayes_chime.normal.models.sir import SIRModel
+from ..util import FloatOrDistVar, NormalDistVar
+from .sir import SIRModel
 
 
 class SEIRModel(SIRModel):
