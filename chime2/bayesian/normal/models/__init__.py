@@ -1,4 +1,4 @@
 """This module contains implementations of the compartment models
 """
-from .sir import SIRModel
-from .seir import SEIRModel
+from bayes_chime.normal.models.sir import SIRModel
+from bayes_chime.normal.models.seir import SEIRModel

@@ -11,7 +11,7 @@ from pandas import DataFrame
 
 from gvar import gvar
 
-from .util import FloatLikeArray, NormalDistVar, FloatOrDistVar
+from bayes_chime.normal.utilities import FloatLikeArray, NormalDistVar, FloatOrDistVar
 
 Dist = TypeVar("ScipyContinousDistribution")
 
