@@ -6,8 +6,8 @@ from numpy import log, NaN
 from pandas import DataFrame
 
 
-from bayes_chime.normal.utilities import FloatOrDistVar, NormalDistVar
-from bayes_chime.normal.models.base import CompartmentModel
+from ..util import FloatOrDistVar, NormalDistVar
+from .base import CompartmentModel
 
 
 class SIRModel(CompartmentModel):

@@ -12,8 +12,8 @@ from seaborn import distplot
 from gvar import mean as gv_mean
 from gvar import sdev as gv_sdev
 
-from bayes_chime.normal.utilities import NormalDistVar, NormalDistArray
-from bayes_chime.normal.fitting import (
+from .util import NormalDistVar, NormalDistArray
+from .fitting import (
     fit_norm_dist_to_dist,
     parse_dist,
     gv_to_dist,
